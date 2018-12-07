@@ -90,7 +90,9 @@ fi
 printf "$(date) ==== Starting ==== \n"
 
 ln $PATH_TO_JAR $SERVICE_NAME".jar"
+echo 1
 chmod a+x $SERVICE_NAME".jar"
+echo 2
 ./$SERVICE_NAME".jar" start
 
 rc=$?;

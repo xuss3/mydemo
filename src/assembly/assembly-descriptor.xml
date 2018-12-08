@@ -22,15 +22,15 @@
 			<directory>src/main/config</directory>
 			<outputDirectory>config</outputDirectory>
 			<excludes>
-				<exclude>demo*.conf</exclude>
+				<exclude>demo.conf</exclude>
 			</excludes>
 			<lineEnding>unix</lineEnding>
 		</fileSet>
 		<fileSet>
 			<directory>src/main/config</directory>
-			<outputDirectory>config</outputDirectory>
+			<outputDirectory>/</outputDirectory>
 			<includes>
-				<include>demo*.conf</include>
+				<include>demo.conf</include>
 			</includes>
 			<lineEnding>unix</lineEnding>
 		</fileSet>

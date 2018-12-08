@@ -18,14 +18,14 @@
 			<fileMode>0755</fileMode>
 			<lineEnding>unix</lineEnding>
 		</fileSet>
-		<!-- <fileSet>
+		<fileSet>
 			<directory>src/main/config</directory>
 			<outputDirectory>config</outputDirectory>
 			<excludes>
 				<exclude>demo*.conf</exclude>
 			</excludes>
 			<lineEnding>unix</lineEnding>
-		</fileSet> -->
+		</fileSet>
 		<fileSet>
 			<directory>src/main/config</directory>
 			<outputDirectory>config</outputDirectory>

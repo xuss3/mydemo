@@ -6,7 +6,7 @@ LOG_DIR=$HOME/app/logs
 SERVER_PORT=8080
 
 ## Adjust memory settings if necessary
-#export JAVA_OPTS="-Xms2560m -Xmx2560m -Xss256k -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=384m -XX:NewSize=1536m -XX:MaxNewSize=1536m -XX:SurvivorRatio=8"
+export JAVA_OPTS="-Xms2560m -Xmx2560m -Xss256k -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=384m -XX:NewSize=1536m -XX:MaxNewSize=1536m -XX:SurvivorRatio=8"
 
 ## Only uncomment the following when you are using server jvm
 #export JAVA_OPTS="$JAVA_OPTS -server -XX:-ReduceInitialCardMarks"

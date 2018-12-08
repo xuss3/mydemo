@@ -64,6 +64,8 @@
 							<goal>single</goal><!-- 只运行一次 -->
 						</goals>
 						<configuration>
+							<finalName>${project.artifactId}-${project.version}-${package.environment}</finalName>
+							<appendAssemblyId>false</appendAssemblyId>
 							<descriptors> <!--描述文件路径 -->
 								<descriptor>src/assembly/assembly-descriptor.xml</descriptor>
 							</descriptors>

@@ -22,7 +22,7 @@
 			<directory>src/main/config</directory>
 			<outputDirectory>config</outputDirectory>
 			<includes>
-				<exclude>demo.conf</exclude>
+				<include>demo.conf</include>
 			</includes>
 			<lineEnding>unix</lineEnding>
 		</fileSet>

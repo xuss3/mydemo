@@ -21,9 +21,9 @@
 		<fileSet>
 			<directory>src/main/config</directory>
 			<outputDirectory>config</outputDirectory>
-			<excludes>
+			<includes>
 				<exclude>demo.conf</exclude>
-			</excludes>
+			</includes>
 			<lineEnding>unix</lineEnding>
 		</fileSet>
 		<fileSet>

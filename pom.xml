@@ -11,12 +11,12 @@
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 	
-	<parent>
+	<!-- <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.17.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
+		<relativePath/> lookup parent from repository
+	</parent> -->
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -28,11 +28,13 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+			<version>1.5.17.RELEASE</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
+			<version>1.5.17.RELEASE</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -41,10 +43,15 @@
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<executable>true</executable>
-				</configuration>
+					<artifactId>spring-boot-maven-plugin</artifactId>
+					<version>1.3.5.RELEASE</version>
+					<executions>
+						<execution>
+							<goals>
+								<goal>repackage</goal>
+							</goals>
+						</execution>
+					</executions>
 			</plugin>
 			
 			<plugin>

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -ilex
 SERVICE_NAME=demo
 ## Adjust log dir if necessary
 LOG_DIR=$HOME/app/logs

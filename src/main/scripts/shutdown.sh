@@ -1,4 +1,4 @@
-#!/bin/bash -ile
+#!/bin/bash -i
 SERVICE_NAME=demo
 
 if [[ -z "$JAVA_HOME" && -d /usr/java/latest/ ]]; then
